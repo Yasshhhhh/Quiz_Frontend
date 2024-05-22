@@ -1,46 +1,56 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+********Quizzo********
 
-### `npm start`
+Developed a Full Stack Application that dynamically generates multiple-choice quizzes based on user inputs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Overview:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The Dynamic Quiz Generation App is a comprehensive platform that allows users to create, attempt, and analyze multiple-choice quizzes. The quizzes are dynamically generated based on user prompts, such as specific topics or uploaded PDF documents, utilizing the Gemini API. This application supports user authentication and authorization, ensuring a secure and personalized experience for each user.
 
-### `npm test`
+**Key Features**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Dynamic Quiz Generation**
 
-### `npm run build`
+Gemini API Integration: Quizzes are created dynamically based on any topic or uploaded PDF. The Gemini API processes the input and generates relevant multiple-choice questions which is handled and processed to generate a quiz along with explanation.
+Customization: Users can specify topics or upload documents to tailor the quizzes to their needs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**User Engagement**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Quiz Attempts: Users can take quizzes, receive instant scores and see previous performances.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Retry Previous Tests: Users have the option to retry quizzes to improve their scores and reinforce learning.
 
-### `npm run eject`
+**Security**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Token-Based Authentication: User authentication is managed through secure tokens, ensuring safe and reliable access to the application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Rate Limiting: Implemented to manage API requests and ensure fair usage, preventing abuse and maintaining performance.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**User Interface**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Responsive Design: The frontend is built with React and TypeScript, providing a smooth and responsive user experience.
 
-## Learn More
+Styling: Tailwind CSS is used for fast and efficient styling, ensuring a modern and clean interface.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Data Management**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Database: PostgreSQL is used for efficient data storage and management, supporting complex queries and data integrity.
+
+**Technology Stack**
+
+Backend: Django
+Django REST Framework (DRF) for creating RESTful APIs
+
+PostgreSQL for database management
+
+Frontend: React and TypeScript
+
+Tailwind CSS for styling
+
+API Integration: Gemini API for dynamic quiz generation
+
+**Demo Video Link**:https://drive.google.com/file/d/1bjXdDbRNVVWcB8aedh7i3W1J3t5XFfXM/view?usp=sharing
+
+**Backend Repository**:https://github.com/Yasshhhhh/Quiz_Server
